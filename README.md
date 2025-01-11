@@ -50,6 +50,7 @@ var order = new Order { Id = 1, Product = "Laptop", Amount = 1500.00m };
 bool result = await orderSagaService.ProcessOrderAsync(order);
 
 Console.WriteLine(result ? "Sipariş başarıyla işlendi." : "Sipariş işleme başarısız oldu.");
+```
 
 ## Lisans
 
